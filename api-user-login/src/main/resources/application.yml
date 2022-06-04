@@ -1,0 +1,19 @@
+server:
+  port: 8001
+spring:
+  application:
+    name: api-user-login
+  redis:
+    port: 6379
+    host: 127.0.0.1
+    database: 0
+eureka:
+  client:
+    service-url:
+      defaultZone: http://Luffy:123456@localhost:8761/eureka
+feign:
+  hystrix:
+    enabled: true
+#hystrix:
+#  metrics:
+#    enabled: true

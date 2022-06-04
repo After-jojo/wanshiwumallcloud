@@ -1,0 +1,19 @@
+# Project exclude paths
+/api/target/
+/api-order-submit/target/
+/api-user-login/target/
+/api-user-regist/target/
+/beans/target/
+/common/target/
+/eureka-server/target/
+/mapper/target/
+/order-add/target/
+/order-close/target/
+/orderitem-add/target/
+/service/target/
+/shopcart-del/target/
+/stock-query/target/
+/stock-update/target/
+/user-check/target/
+/user-save/target/
+/zipkin-server/target/
